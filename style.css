@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(194, 190, 190);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px black;
+    
+}
+title {
+    color: rgb(59, 0, 0);
+    font-family: Trebuchet MS, sans-serif;
+    padding: 20px;
+    text-align: left;
+}
+header {
+    color: rgb(59, 0, 0);
+    font-family: Trebuchet MS, sans-serif;
+    padding: 22px;
+    text-align: left;
+}
+
+.projects {
+    border-radius: 15px;
+    font-size: 18px;
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+}
+
+.Description {
+    font-family: Verdana, sans-serif;
+}
+
+ul {
+    list-style-type: square;
+    font-size: 20px;
+}
+
+#links:hover {
+    color: white;
+    background-color: rgb(27, 44, 141);
+    border-radius: 5px;
+    padding: 4px;
+}
+#contactinfo:hover {
+    color: rgb(57, 87, 255);
+}
+#contactinfo:active {
+    color: rgb(33, 57, 192);
+}
+
+section form {
+    background-color: rgb(190, 152, 152);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+* {
+    font-size: 16px;
+}
+
+tr {
+    text-align: center;
+    font-size: 18px;
+}
+
+table {
+    width: 40%;
+}
+/*CSS ID Selector*/
+#nav {
+    padding:20px;
+}
+
